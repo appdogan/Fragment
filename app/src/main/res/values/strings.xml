@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dynamic Fragment</string>
+
+    <string name="main_name">Ana Sayfa</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="change_email">This page is Change-Email</string>
+    <string name="change_password">This page is Change-Password</string>
+    <string name="pass_button">Pass Change Password</string>
+    <string name="pass_button_two">Pass Change Email</string>
+
+
+
+
+</resources>
