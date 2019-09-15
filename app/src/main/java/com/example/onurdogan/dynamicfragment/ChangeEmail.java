@@ -15,7 +15,7 @@ import android.widget.Button;
  */
 public class ChangeEmail extends Fragment {
 
-   private Button buttonGo;
+   public  Button buttonGo;
 
    public MainActivity mainActivity;
 
@@ -37,6 +37,8 @@ public class ChangeEmail extends Fragment {
 
         buttonGo = (Button) v.findViewById(R.id.button);
 
+
+
         buttonGo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -49,7 +51,6 @@ public class ChangeEmail extends Fragment {
     mainActivity.fragmentTransaction.replace(R.id.lineer_main_layout,changePassword);
 
     mainActivity.fragmentTransaction.commit();
-
 
 
 

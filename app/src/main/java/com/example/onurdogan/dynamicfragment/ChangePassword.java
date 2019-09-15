@@ -46,6 +46,7 @@ public class ChangePassword extends Fragment {
                 mainActivity.fragmentManager = getFragmentManager();
                 mainActivity.fragmentTransaction = mainActivity.fragmentManager.beginTransaction();
                 mainActivity.fragmentTransaction.replace(R.id.lineer_main_layout,changeEmail);
+
                 mainActivity.fragmentTransaction.commit();
 
 
